@@ -16,3 +16,8 @@ int test::min(int a, int b)
 {
     return ((a < b) ? (a) : (b));
 }
+
+int test::min(std::vector<int> vec)
+{
+    return fule;
+}
