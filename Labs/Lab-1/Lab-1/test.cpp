@@ -36,6 +36,10 @@ int sheet()
     for (int i = 0; i < 10; i++) {
         array_of_int[i] = i * 100;
         cout << array_of_int[i] << endl;
+
+        //Несостыковка
+        std::exception e;
+        std::cout << "Err" << e.what() << '\n';
     }
 }
 
