@@ -6,6 +6,10 @@ test::test()
 {
 }
 
+test::test(int S) : fule(S)
+{
+}
+
 /// <summary>
 /// Функия по поиску минимального
 /// </summary>
