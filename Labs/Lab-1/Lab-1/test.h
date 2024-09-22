@@ -10,7 +10,8 @@ public:
 	test();
 
 	int min(int a, int b);
-	int min(std::vector vec);
+	int min(std::vector <int> vec);
+	int fule = 1;
 
 private:
 
