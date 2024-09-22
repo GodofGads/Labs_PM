@@ -2,17 +2,21 @@
 #include <iostream>
 using namespace std;
 /// <summary>
-/// Пустой Конструктор
+/// ГЏГіГ±ГІГ®Г© ГЉГ®Г­Г±ГІГ°ГіГЄГІГ®Г°
 /// </summary>
 test::test()
 {
 }
 
+test::test(int S) : fule(S)
+{
+}
+
 /// <summary>
-/// Функия по поиску минимального
+/// Г”ГіГ­ГЄГЁГї ГЇГ® ГЇГ®ГЁГ±ГЄГі Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГЈГ®
 /// </summary>
-/// <param name="a">первое число, которое нужно сравнивать</param>
-/// <param name="b">второе число которое нужно сравнивать</param>
+/// <param name="a">ГЇГҐГ°ГўГ®ГҐ Г·ГЁГ±Г«Г®, ГЄГ®ГІГ®Г°Г®ГҐ Г­ГіГ¦Г­Г® Г±Г°Г ГўГ­ГЁГўГ ГІГј</param>
+/// <param name="b">ГўГІГ®Г°Г®ГҐ Г·ГЁГ±Г«Г® ГЄГ®ГІГ®Г°Г®ГҐ Г­ГіГ¦Г­Г® Г±Г°Г ГўГ­ГЁГўГ ГІГј</param>
 /// <returns></returns>
 int test::min(int a, int b)
 {
@@ -24,6 +28,7 @@ int test::min(std::vector<int> vec)
     return fule;
 }
 
+
 int sheet()
 {
     int array_of_int[] = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
@@ -33,3 +38,5 @@ int sheet()
         cout << array_of_int[i] << endl;
     }
 }
+
+
